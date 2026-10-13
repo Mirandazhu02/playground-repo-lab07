@@ -16,6 +16,8 @@ from pathlib import Path
 
 DATA_PATH = Path(__file__).parent / "data" / "sample.csv"
 
+def testchange():
+    return 0
 
 def load_data(path=DATA_PATH):
     with open(path, newline="") as f:
